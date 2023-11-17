@@ -18,9 +18,13 @@ You can download firmware at https://www.mydlink.co.kr/2013/beta_board/product_d
 
 
 ## How to reproduce vulnerability
-1. Emulate the firmware using emulation tools(QEMU, Firmadyne, FirmAE, ...).
+1. Emulate the firmware using emulation tools(QEMU, Firmadyne, FirmAE, ...).  
 ![Untitled](https://github.com/ksy980324/Report/assets/89375654/a9c5ae25-7e3c-4901-afb0-8fca0d4fde95)
 
    
-2. Run BOF_poc.py code using python2 then you can see error is occur due to stack buffer overflow.
-3. ![Untitled](https://github.com/ksy980324/Report/assets/89375654/49fdd50e-57f1-4483-86ba-181f805f2d07)
+2. Run BOF_poc.py code using python2 then you can see error is occur due to stack buffer overflow.  
+![Untitled](https://github.com/ksy980324/Report/assets/89375654/fc756695-8d0d-4be4-8621-37102e7660a5)
+
+
+## Credit
+sangy_kim@korea.ac.kr
